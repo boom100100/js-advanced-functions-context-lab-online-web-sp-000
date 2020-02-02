@@ -40,7 +40,7 @@ let hoursWorkedOnDate = function(date){
 }
 
 let wagesEarnedOnDate = function(date){
-  return this.payPerHour * hoursWorkedOnDate(date);
+  return (this.payPerHour * hoursWorkedOnDate(date));
 }
 let payrollExpense = function(){}
 let calculatePayroll = function(){}
