@@ -18,9 +18,9 @@ let createEmployeeRecords = function(array){
 }
 
 
-let createTimeInEvent = function(array, date){
+let createTimeInEvent = function(date){
   let time = date.split(" ");
-  array.timeInEvents.push({"type": "TimeIn", "date": time[0], "hour": time[1]});
+  this.timeInEvents.push({"type": "TimeIn", "date": time[0], "hour": time[1]});
   return array;
 }
 
