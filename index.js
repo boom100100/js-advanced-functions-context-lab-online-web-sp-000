@@ -17,6 +17,10 @@ let createEmployeeRecords = function(array){
   return array.map(x => createEmployeeRecord(x));
 }
 
+let findEmployeeByFirstName = function(allEmployeesArray, firstName){
+  return allEmployeesArray.find(x => x.firstName === firstName);
+}
+
 
 let createTimeInEvent = function(date){
   let [day, hour] = date.split(" ");
@@ -45,9 +49,7 @@ let wagesEarnedOnDate = function(date){
 
 let payrollExpense = function(){}
 let calculatePayroll = function(){}
-let findEmployeeByFirstName = function(allEmployeesArray, firstName){
-  return allEmployeesArray.find(x => x.firstName === firstName);
-}
+
 
 //let wagesEarnedOnDate = function(){}
 //let wagesEarnedOnDate = function(){}
