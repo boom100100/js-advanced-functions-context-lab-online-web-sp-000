@@ -40,7 +40,8 @@ let hoursWorkedOnDate = function(date){
 }
 
 let wagesEarnedOnDate = function(date){
-  return (this.payPerHour * hoursWorkedOnDate(date));
+  return (this.payPerHour * hoursWorkedOnDate.call(date));
+  //.call(cRecord, "44-03-15")
 }
 let payrollExpense = function(){}
 let calculatePayroll = function(){}
