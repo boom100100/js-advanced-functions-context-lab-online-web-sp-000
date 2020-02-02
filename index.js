@@ -38,7 +38,10 @@ let hoursWorkedOnDate = function(date){
 
 }
 
-let wagesEarnedOnDate = function(){}
+let wagesEarnedOnDate = function(date){
+  return this.payPerHour * hoursWorkedOnDate(date);
+}
+
 let payrollExpense = function(){}
 let calculatePayroll = function(){}
 let findEmployeeByFirstName = function(){}
