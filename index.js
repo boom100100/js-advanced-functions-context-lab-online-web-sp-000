@@ -53,7 +53,7 @@ let calculatePayroll = function(records){
   let wages = [];
   records.forEach(x => {//for each person
     x.timeOutEvents.forEach(y => { //for each date worked
-      wages.push(wagesEarnedOnDate.call(x, y));
+      wages.push(wagesEarnedOnDate(x));
     });
   });
   
