@@ -57,7 +57,7 @@ let calculatePayroll = function(records){
     });
   });
   
-  wages.reduce(x)
+  wages.reduce((memo, element) => memo + element, 0);
   //calculate wage for each day
   //
 }
