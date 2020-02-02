@@ -35,7 +35,6 @@ let hoursWorkedOnDate = function(date){
   let timeIn = this.timeInEvents.find(x => x.date === date).hour;
   
   return (timeOut - timeIn)/100;
-  
 
 }
 
