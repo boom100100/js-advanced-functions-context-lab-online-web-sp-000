@@ -1,5 +1,4 @@
 /* Your Code Here */
-let allRecords = function(){}
 
 let createEmployeeRecord = function(array){
   let obj = {
@@ -47,8 +46,10 @@ let wagesEarnedOnDate = function(date){
   return (this.payPerHour * hoursWorkedOnDate.call(this, date));
 }
 
+let calculatePayroll = function(records){}
+
 let payrollExpense = function(){}
-let calculatePayroll = function(){}
+let allRecords = function(){}
 
 
 //let wagesEarnedOnDate = function(){}
