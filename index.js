@@ -24,7 +24,6 @@ let createTimeInEvent = function(date){
   return this;
 }
 
-
 let createTimeOutEvent = function(date){
   let time = date.split(" ");
   this.timeOutEvents.push({"type": "TimeOut", "date": time[0], "hour": parseInt(time[1])});
