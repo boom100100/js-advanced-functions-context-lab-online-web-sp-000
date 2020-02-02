@@ -47,7 +47,19 @@ let wagesEarnedOnDate = function(date){
 }
 
 let calculatePayroll = function(records){
+  //for each user
+  //extract dates
   
+  let wages = [];
+  records.forEach(x => {//for each person
+    x.timeOutEvents.forEach(x => { //for each date worked
+      wages.push(wagesEarnedOnDate(x));
+    });
+  });
+  
+  wages.reduce(x)
+  //calculate wage for each day
+  //
 }
 
 let payrollExpense = function(){}
