@@ -1,12 +1,12 @@
 /* Your Code Here */
 let allRecords = function(){}
 
-let createEmployeeRecord = function(array){
+let createEmployeeRecord = function(){
   let obj = {
-    "firstName": array[0],
-    "familyName": array[1],
-    "title": array[2],
-    "payPerHour": array[3],
+    "firstName": this[0],
+    "familyName": this[1],
+    "title": this[2],
+    "payPerHour": this[3],
     "timeInEvents": [],
     "timeOutEvents": []
   }
@@ -19,6 +19,8 @@ let createEmployeeRecords = function(array){
 
 
 let createTimeInEvent = function(){}
+
+
 let createTimeOutEvent = function(){}
 let hoursWorkedOnDate = function(){}
 let wagesEarnedOnDate = function(){}
