@@ -47,7 +47,7 @@ let wagesEarnedOnDate = function(date){
 }
 
 let calculatePayroll = function(records){
-  return allWagesFor.call(records);
+  return records.reduce((memo, rec) => memo + allWagesFor(rec), 0);
   //for each user
   //extract dates
   /*
