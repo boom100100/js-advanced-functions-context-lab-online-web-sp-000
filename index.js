@@ -25,7 +25,11 @@ let createTimeInEvent = function(date){
 }
 
 
-let createTimeOutEvent = function(){}
+let createTimeOutEvent = functionfunction(date){
+  let time = date.split(" ");
+  this.timeOutEvents.push({"type": "TimeOut", "date": time[0], "hour": parseInt(time[1])});
+  return this;
+}
 let hoursWorkedOnDate = function(){}
 let wagesEarnedOnDate = function(){}
 let payrollExpense = function(){}
