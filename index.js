@@ -30,10 +30,12 @@ let createTimeOutEvent = function(date){
   return this;
 }
 
-let hoursWorkedOnDate = function(array, date){
-  let timeOut = array.find(x => x.timeOutEvents.date = date);
-  let timeIn = array.find(x => x.timeInEvents.date = date);
+let hoursWorkedOnDate = function(date){
+  let timeOut = this.find(x => x.timeOutEvents.date = date);
+  let timeIn = this.find(x => x.timeInEvents.date = date);
   return (timeOut - timeIn)/100;
+  //        expect(hoursWorkedOnDate.call(cRecord, "44-03-15")).to.equal(2)
+
 }
 
 let wagesEarnedOnDate = function(){}
