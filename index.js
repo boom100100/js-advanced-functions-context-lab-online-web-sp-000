@@ -13,7 +13,11 @@ let createEmployeeRecord = function(array){
   return obj;
 }
 
-let createEmployeeRecords = function(){}
+let createEmployeeRecords = function(array){
+  array.forEach(x => createEmployeeRecord(x));
+}
+
+
 let createTimeInEvent = function(){}
 let createTimeOutEvent = function(){}
 let hoursWorkedOnDate = function(){}
