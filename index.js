@@ -14,7 +14,7 @@ let createEmployeeRecord = function(array){
 }
 
 let createEmployeeRecords = function(array){
-  array.forEach(x => createEmployeeRecord(x));
+  return array.map(x => createEmployeeRecord(x));
 }
 
 
