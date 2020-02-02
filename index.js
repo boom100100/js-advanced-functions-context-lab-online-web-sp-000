@@ -45,7 +45,10 @@ let wagesEarnedOnDate = function(date){
 
 let payrollExpense = function(){}
 let calculatePayroll = function(){}
-let findEmployeeByFirstName = function(){}
+let findEmployeeByFirstName = function(allEmployeesArray, name){
+  return allEmployeesArray.find();
+}
+
 //let wagesEarnedOnDate = function(){}
 //let wagesEarnedOnDate = function(){}
 
