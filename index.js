@@ -18,7 +18,11 @@ let createEmployeeRecords = function(array){
 }
 
 
-let createTimeInEvent = function(){}
+let createTimeInEvent = function(array, date){
+  let [day, hour] = date.split(" ");
+  array.timeInEvents.push({"type": "TimeIn", "date": day, "hour": hour})
+  return array;
+}
 
 
 let createTimeOutEvent = function(){}
