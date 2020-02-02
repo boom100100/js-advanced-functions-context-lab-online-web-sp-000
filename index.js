@@ -33,7 +33,7 @@ let createTimeOutEvent = function(date){
 let hoursWorkedOnDate = function(array, date){
   let timeOut = array.find(x => x.timeOutEvents.date = date);
   let timeIn = array.find(x => x.timeInEvents.date = date);
-  return (timeOut - timeIn)/100
+  return (timeOut - timeIn)/100;
 }
 
 let wagesEarnedOnDate = function(){}
