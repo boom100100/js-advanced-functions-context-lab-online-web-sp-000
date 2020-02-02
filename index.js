@@ -26,6 +26,7 @@ let hoursWorkedOnDate = function(){}
 let wagesEarnedOnDate = function(){}
 let payrollExpense = function(){}
 let calculatePayroll = function(){}
+let findEmployeeByFirstName = function(){}
 //let wagesEarnedOnDate = function(){}
 //let wagesEarnedOnDate = function(){}
 
