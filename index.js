@@ -1,9 +1,9 @@
 /* Your Code Here */
-let allRecords = function(firstName){}
+let allRecords = function(array){}
 
 let createEmployeeRecord = function(firstName, familyName, title, payPerHour){
   let obj = {
-    "firstName": firstName,
+    "firstName": a,
     "familyName": familyName,
     "title": title,
     "payPerHour": payPerHour,
