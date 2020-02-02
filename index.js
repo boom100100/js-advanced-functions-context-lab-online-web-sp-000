@@ -30,7 +30,11 @@ let createTimeOutEvent = function(date){
   return this;
 }
 
-let hoursWorkedOnDate = function(){}
+let hoursWorkedOnDate = function(date){
+  let timeOut = this.find(x => x.timeOutEvents.date = date);
+  let timeIn = this.find(x => x.timeInEvents.date = date);
+}
+
 let wagesEarnedOnDate = function(){}
 let payrollExpense = function(){}
 let calculatePayroll = function(){}
